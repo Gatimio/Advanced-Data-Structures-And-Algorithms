@@ -19,7 +19,7 @@
       python3 GradingScript.py ${result_[1-10].txt} ${output_[1-10].txt} ${YOUR_LOG_FILE} ${log_[1-10].txt} ${YOU_CPU_CLOCK_RATE}
 
       for i in {1..10}; do                                      
-            python3 GradingScript.py "Results/result_${i}.txt" "Outputs/output_${i}.txt" "Logs/log_${i}.txt" "Logs/log_${i}.txt" 2659.851
+            python3 GradingScript.py "Results/result_${i}.txt" "Outputs/output_${i}.txt" "Logs/log_${i}.txt" "Logs/log_${i}.txt" 2000
       done
 
    * You can use `cat /proc/cpuinfo | grep 'MHz'` to find out your CPU clock rate in MHz.
